@@ -38,14 +38,29 @@
 
 <div class="form-container">
   <form action="#">
-    <div class="input-container"> <input id="name" type="text" placeholder="First Name">
-      <div class="error">!</div> </div>
+    <div class="input input-name"> 
+      <input class="name" type="text" placeholder="First Name">
+      <div class="error error-name">!</div> 
+      <div class="error-text error-text-name"><p></p></div>
+    </div>
 
-      <div class="input-container"> <input type="text" placeholder="Last Name">
-        <div class="error">!</div> </div>
+      <div class="input input-lastName">
+         <input class="last-name" type="text" placeholder="Last Name">
+        <div class="error error-lastname">!</div> 
+        <div class="error-text error-text-lastname"><p></p></div>
+      </div>
    
-    <div class="input-container"> <input type="email" placeholder="Email Adress">  <div class="error">!</div></div>
-    <div class="input-container"> <input type="password" placeholder="Password">  <div class="error">!</div></div>
+    <div class="input input-email">
+       <input class="email" type="email" placeholder="Email Adress">
+         <div class="error erorr-email">!</div>
+         <div class="error-text"><p></p></div>
+        </div>
+    <div class="input input-password"> 
+      <input class="password" type="password" placeholder="Password">  
+      <div class="error error-password">!</div>
+      <div class="error-text error-text-password"><p></p></div>
+    </div>
+
     <button class="submit-button"type="submit">Claim your free trial</button>
   </form>
   <footer>

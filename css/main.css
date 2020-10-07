@@ -144,16 +144,30 @@ footer > p > span > a{
 }
 
 .error {
-    width: 20px;
-    height: 20px;
-    background-color: red;
+    width: 25px;
+    height: 25px;
+    background-color: hsl(0, 100%, 74%) ;
     position: absolute;
     /* top: 15px;
     right: 40px; */
-    top: 0;
-    right: 0;
+    top: 5px;
+    right: 25px;
     border-radius: 50%;
 }
-.input-container {
+.input {
     position: relative;
+}
+.error-text {
+
+    position: absolute;
+    top: 32px;
+    right: 16px;
+    color: hsl(0, 100%, 74%) ;
+}
+.error-text > p {
+    font-size: 10px;
+
+}
+.error {
+    display: none;
 }
