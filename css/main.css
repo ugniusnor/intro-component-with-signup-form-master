@@ -75,6 +75,8 @@ main {
     border-radius: 9px;
     line-height: 40px;
     font-size: 20px;
+    
+
 }
 .trial-button:hover {
     background-color: hsl(240, 31%, 59%);
@@ -82,9 +84,16 @@ main {
 .trial-button-text {
 width: 80%;
 font-size: 5px;
+display: flex;
+justify-content: center;
+justify-items: center;
+line-height: 22px;
 margin: auto;
 }
 
+.trial-button-text > p {
+    margin-top: 20px;
+}
 .right-side-container> a {
     text-decoration: none;
     color: white;
@@ -118,6 +127,7 @@ input::placeholder {
     cursor: pointer;
     font-size: 12px;
     font-weight: 15;
+    margin-top: 25px;
 }
 .submit-button:hover {
   background-color: hsl(152, 100%, 74%);  
@@ -170,4 +180,59 @@ footer > p > span > a{
 }
 .error {
     display: none;
+}
+
+@media only screen and (min-width:768px) {
+   .container {
+       display: inline-block;
+       max-width: 100%;
+   }
+    main {
+        display: inline-block;
+        max-width: 100%;
+    }
+    .left-side-container {
+        display: inline-block;
+        width: 40%;
+        float: left;
+        margin-left: 10%;
+        text-align: left;
+    }
+    .right-side-container {
+        display: inline-block;
+        width: 40%;
+        float: right;
+        margin-top: 30px;
+        margin-right: 10%;
+    }
+    .page-content {
+        display: inline-block;
+    }
+    .text-box {
+        height: 100%;
+        width: 80%;
+        margin: auto;
+        margin-top: 107px;
+    
+    }
+    .form-container {
+      
+        padding: 10px;
+        margin-top: 20px;
+        border-radius: 10px;
+        width: 77%;
+        margin: auto;
+        margin-top: 27px;
+    }
+    
+.trial-button {
+    width: 86%;
+    margin: auto;
+    text-align: center;
+    border-radius: 9px;
+    height: 48px;
+}
+.trial-button-text > p {
+    margin-top: 0;
+}
 }
