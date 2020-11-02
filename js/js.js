@@ -63,6 +63,13 @@ form.addEventListener('submit', (e)=> {
         errorEmailIcon.style.display="none"
     }
 message=[];
+{/* <div class="form-container">
+  <form action="#" NoValidate>
+    <div class="input input-name"> 
+      <input class="name" type="text" placeholder="First Name">
+      <div class="error error-name">!</div> 
+      <div class="error-text error-text-name"><p></p></div>
+    </div> */}
 //checking password
 if(password.value =="" || password.value==null || password.value.length < 8) {
     errorPasswordIcon.style.display="inline";
